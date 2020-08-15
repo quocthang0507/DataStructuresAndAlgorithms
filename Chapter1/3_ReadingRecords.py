@@ -1,9 +1,11 @@
+import os
+import sys
 import turtle
 
 def main():
 	# filename = input("Please enter your drawing filename: ")
 
-	filename = 'D:\\OneDrive\\Thang\\HOCTAP\\TU HOC\\Python\\DataStructuresAndAlgorithms\\3_Records.txt'
+	filename = os.path.join(sys.path[0], '3_Records.txt')
 
 	t = turtle.Turtle()
 

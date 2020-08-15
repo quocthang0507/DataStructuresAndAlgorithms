@@ -1,6 +1,7 @@
-import Polymorphism
-import turtle
 from Polymorphism import *
+import turtle
+import os
+import sys
 
 
 class PyList:
@@ -18,7 +19,7 @@ class PyList:
 def main():
     # filename = input("Please enter drawing filename: ")
 
-    filename = 'D:\\OneDrive\\Thang\\HOCTAP\\TU HOC\\Python\\DataStructuresAndAlgorithms\\5_Records.txt'
+    filename = os.path.join(sys.path[0], '5_Records.txt')
 
     t = turtle.Turtle()
     screen = t.getscreen()
