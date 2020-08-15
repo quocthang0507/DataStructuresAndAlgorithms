@@ -1,1 +1,1 @@
-![Firgure 1](./Images/Annotation 2020-08-15 215950.png)
+![Firgure 1](./Images/1.png)
